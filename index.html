@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat And Mouse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <table>
+            <tr>
+                <td class="td1"> Information </td>
+                <td> Cat </td>
+                <td> Rat </td>
+            </tr>
+            <tr>
+                <td> Name </td>
+                <td>
+                    <input class="ip" type="text" id="catname">
+                </td>
+                <td>
+                    <input class="ip" type="text" id="ratname">
+                </td>
+            </tr>
+            <tr>
+                <td> Weight </td>
+                <td>
+                    <input class="ip" type="text" id="catweight">
+                </td>
+                <td>
+                    <input class="ip" type="text" id="ratweight">
+                </td>
+            </tr>
+            <tr>
+                <td> Status </td>
+                <td>
+                    <input class="ip" type="text" id="catstatus">
+                </td>
+                <td>
+                    <input class="ip" type="text" id="ratstatus">
+                </td>
+            </tr>
+            <tr>
+                <td> Speed </td>
+                <td>
+                    <input class="ip" type="text" id="catspeed">
+                </td>
+                <td>
+                    <input class="ip" type="text" id="ratspeed">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> Catch  <input class="ip" type="text" id="catch"> </td>
+                <td> <input type="button" onclick="cat.eatMouse(mouse)" value="Eat"> </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
